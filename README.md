@@ -18,7 +18,7 @@ Just add `now-coffee` to your `now.json`:
 ```json
 {
   "version": 2,
-  "builds": [{ "src": "app.coffee", "use": "now-coffee" }]
+  "builds": [{ "src": "app.coffee", "use": "now-coffee" }],
   "routes": [{ "src": "/", "dest": "app.coffee" }]
 }
 ```
