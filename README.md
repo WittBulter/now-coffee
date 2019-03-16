@@ -2,6 +2,7 @@
 
 CoffeeScript builder for Now 2.0
 
+<br/>
 
 ## Why Now Coffee ?
 
@@ -36,6 +37,7 @@ export default (req, res) -> res.end 'Hello from CoffeeScript on Now 2.0!'
 
 - [examples projects]()
 
+<br/>
 
 ## LICENSE
 [MIT](LICENSE)
