@@ -1,0 +1,28 @@
+{
+  "name": "now-coffee",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "jsnext:main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "./build.sh",
+    "test": "yarn run build && jest",
+    "prepublish": "yarn run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^11.11.3",
+    "aws-lambda": "^0.1.2",
+    "jest": "^24.5.0",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@now/build-utils": "^0.4.36",
+    "@now/node-bridge": "^1.0.1-canary.0",
+    "execa": "^1.0.0",
+    "fs-extra": "^7.0.1"
+  }
+}

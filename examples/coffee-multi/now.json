@@ -1,0 +1,12 @@
+{
+  "name": "coffee-multi",
+  "version": 2,
+  "builds": [
+    { "src": "page_a.coffee", "use": "now-coffee" },
+    { "src": "page_b.coffee", "use": "now-coffee" }
+  ],
+  "routes": [
+    { "src": "/a", "dest": "page_a.coffee" },
+    { "src": "/b", "dest": "page_b.coffee" }
+  ]
+}

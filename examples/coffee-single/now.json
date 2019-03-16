@@ -1,0 +1,6 @@
+{
+  "name": "coffee-single",
+  "version": 2,
+  "builds": [{ "src": "app.coffee", "use": "now-coffee" }],
+  "routes": [{ "src": "/(.*)", "dest": "app.coffee" }]
+}

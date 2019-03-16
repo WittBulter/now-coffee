@@ -1,0 +1,4 @@
+/dist
+/src/bridge.d.ts
+node_modules
+*.log

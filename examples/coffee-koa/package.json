@@ -1,0 +1,9 @@
+{
+  "name": "coffee-koa",
+  "version": "1.0.0",
+  "main": "app.coffee",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.7.0"
+  }
+}
