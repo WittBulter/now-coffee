@@ -33,9 +33,9 @@ export default (req, res) -> res.end 'Hello from CoffeeScript on Now 2.0!'
 
 ## Examples
 
-- [now-example](https://github.com/zeit/now-examples/tree/master/nodejs-coffee)
+- [now-examples](https://github.com/zeit/now-examples/tree/master/nodejs-coffee)
 
-- [examples projects]()
+- [example projects]()
 
 <br/>
 
